@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * This program reverses an array using recursion and prints it.
  * It reads an integer `n`, followed by `n` elements, and prints them in reverse order.
@@ -27,7 +29,7 @@ public class Problem_7 {
      * Reads input values, stores them in an array, and prints them in reverse order.
      */
     public static void main(String[] args) {
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        java.util.Scanner scanner = new Scanner(System.in);
 
         // Read the number of elements
         int n = scanner.nextInt();
