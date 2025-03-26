@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * This program checks whether a given number is prime or composite.
  * It reads an integer `n` from the user and determines if it is a prime number.
- * Time Complexity: O(√n), where `n` is the input number.
+ * Time Complexity: O(sqrt(n)), where `n` is the input number.
  */
 
 public class Problem_3 {
