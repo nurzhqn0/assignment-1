@@ -13,7 +13,7 @@ public class Problem_4 {
      * @param n The number whose factorial is to be calculated.
      * @return The factorial of `n` as a long value.
      */
-    public static Long findFactorial(int n) {
+    public static long findFactorial(int n) {
         // Base case: factorial of 1 is 1
         if (n == 1) {
             return 1L;

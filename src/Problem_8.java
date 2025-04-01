@@ -27,7 +27,7 @@ public class Problem_8 {
     }
 
     public static void main(String[] args) {
-        java.util.Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine(); // Read input string
         scanner.close();
 
